@@ -24,25 +24,25 @@ git clone https://github.com/pauloh-alc/paginas-web-HTML5-CSS3
 -- Criado no curso de Web Design Completo - Origamid
 | Nome do projeto     |  Link de acesso     |
 | ------------------- | ------------------- |
-|  bikcraft           |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/bikcraft)|
+|  bikcraft           |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/bikcraft)|
 
 -- Criado para colocar em prática os conhecimentos adquiridos no curso Web Design Completo
 | Nome do projeto     |  Link de acesso     |
 | ------------------- | ------------------- |
-|  Prosecurse         |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/Prosecurse) |
+|  Prosecurse         |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/Prosecurse/web) |
 
 -- Criado no curso de CSS Avançado Posicionamento - Origamid
 | Nome do projeto     |  Link de acesso     |
 | ------------------- | ------------------- |
-|  brafe-1-puro       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/brafe-1-puro) |
-|  brafe-1-grid       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/brafe-1-grid) |
-|  brafe-1-flexbox    |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/brafe-1-flexbox) |
-|  brafe-1-bootstrap  |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/brafe-1-bootstrap) |
+|  brafe-1-puro       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/brafe-1-puro) |
+|  brafe-1-grid       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/brafe-1-grid) |
+|  brafe-1-flexbox    |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/brafe-1-flexbox) |
+|  brafe-1-bootstrap  |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/brafe-1-bootstrap) |
 
 | Nome do projeto     |  Link de acesso     |
 | ------------------- | ------------------- |
-|  brafe-2-puro       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/brafe-2-puro) |
-|  brafe-2-grid       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/brafe-2-grid) |
+|  brafe-2-puro       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/brafe-2-puro) |
+|  brafe-2-grid       |  [acesse](https://github.com/pauloh-alc/paginas-web-HTML5-CSS3/tree/main/brafe-2-grid) |
 
 ## Autor
 Paulo Henrique Diniz de Lima Alencar.
