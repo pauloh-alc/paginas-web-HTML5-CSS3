@@ -1,0 +1,102 @@
+
+
+/* CRIAÇÃO DE GRID: */
+
+/* Primeira coisa que criamos é o container */
+.container {
+  max-width: 960px;   /* Tamanho do meu container - Bootstrap possui: 540px, 720px, 960px, 1140px*/
+  margin: 0 auto;
+  /* background: tomato; */
+}
+
+/* Clearfix */
+.container::after, .container::before {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+/* Criação de grid */
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  display: block;
+  min-height: 1px;
+}
+
+/* 
+
+Fórmula: [100/12 * grid] - gutter em pixel 
+
+*/
+
+/* Grid em Porcentagem - Geral */
+.grid-1   {width: calc(8.333% - 20px)}
+.grid-2   {width: calc(16.666% - 20px)}
+.grid-3   {width: calc(25% - 20px)}
+.grid-4   {width: calc(33.333% - 20px)}
+.grid-5   {width: calc(41.666% - 20px)}
+.grid-6   {width: calc(50% - 20px)}
+.grid-7   {width: calc(58.333% - 20px)}
+.grid-8   {width: calc(66.666% - 20px)}
+.grid-9   {width: calc(75% - 20px)}
+.grid-10  {width: calc(83.333% - 20px)}
+.grid-11  {width: calc(91.666% - 20px)}
+.grid-12  {width: calc(100% - 20px)}
+
+
+/* Obs: não é neessário grid para tablets, a porcentagem já resolve isso */
+
+/* Grid para Mobile */
+
+@media (max-width: 739px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: none;
+  }
+}
+
+
+/* 
+
+EM PORCENTAGEM - AINDA PRECISO RETIRAR OS MARGENS Utilizando calc()
+
+.grid-1 {width: 8.333%}
+.grid-2 {width: 16.666%}
+.grid-3 {width: 25%}
+.grid-4 {width: 33.333%}
+.grid-5 {width: 41.666%}
+.grid-6 {width: 50%}
+.grid-7 {width: 58.333%}
+.grid-8 {width: 66.666%}
+.grid-9 {width: 75%}
+.grid-10 {width: 83.333%}
+.grid-11 {width: 91.666%}
+.grid-12 {width: 100%}
+*/
+
+/* 
+ POSSO TRABALHAR COM PIXEL TAMBÉM
+
+.grid-1 {width: 60px;}
+.grid-2 {width: 140.0px;}
+.grid-3 {width: 220.0px;}
+.grid-4 {width: 300.0px;}
+.grid-5 {width: 380.0px;}
+.grid-6 {width: 460.0px;}
+.grid-7 {width: 540.0px;}
+.grid-8 {width: 620.0px;}
+.grid-9 {width: 700.0px;}
+.grid-10 {width: 780.0px;}
+.grid-11 {width: 860.0px;}
+.grid-12 {width: 940.0px;}
+.grid-1-3 {width: 300.0px;} 
+*/

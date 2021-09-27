@@ -1,0 +1,413 @@
+
+/* Deixando Responsivo */
+
+/* Estilo para Tablets */
+@media only screen and (min-width: 788px) and (max-width: 960px) {
+
+/* Serviços */
+.servicos ul li h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.servicos ul li p {
+    line-height: 18px;
+    width: 170px;
+}
+
+/* Informações */
+.informacoes {
+    padding: 120px 0;
+}
+
+.informacoes ul li {
+    height: 190px;
+}
+
+.informacoes .cabeca-info p{
+    line-height: 18px;
+    padding: 0px 190px 50px 190px;
+}
+
+.informacoes h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+}
+
+.informacoes .corpo-info li h5 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+/* Conselhos */
+.conselhos-cabeca p {
+    line-height: 18px;
+}
+
+.conselhos-corpo li p {
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    padding: 15px 29px 20px 29px;
+}
+
+.conselhos-corpo li:nth-of-type(4) img {
+    margin-top: 0px;
+}
+
+/* Quem somos */
+.quem-somos {
+    height: 723px;
+    padding: 60px 0 90px 0;
+}
+
+.quem-somos .sobre-cabeca p {
+    line-height: 18px;
+    padding: 15px 190px 80px 190px;
+}
+
+.quem-somos .sobre h3{
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.quem-somos .sobre p {
+    text-align: center;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 15px 0;
+}
+
+.quem-somos .sobre span:nth-of-type(even) {
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+
+.quem-somos .sobre span:nth-of-type(odd) {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.video-play button {
+    transform: translate3d(200px, -205px, 0);
+}
+
+/* Empresas */
+.logos li {
+    padding-top: 0px;
+    padding-right: 25px;
+}
+
+.formulario {
+    margin-top: 80px;
+    padding: 30px 27px 30px 27px;
+}
+
+.formulario h3 {
+    font-family: 'Martel';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.barra-fundo {
+    transform: translateY(300px);
+} 
+
+/* Contato */
+.contato {
+    padding: 60px 0 80px 0;
+}  
+
+.contato p {
+    line-height: 18px;
+    padding: 10px 190px 50px 190px;
+}  
+
+.contato div:nth-of-type(3){
+    width: 268px;
+    height: 383px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #252B42;
+    color: #ffffff;
+    transform: translateY(-25px);
+    padding: 80px 0 80px 0;
+}
+
+.contato button {
+    padding: 10px 15px 10px 15px;
+}  
+
+
+/* Consulta */
+.consulta {
+    height: 132px;
+}
+  
+.consulta p {
+    font-size: 14px;
+    line-height: 18px;
+}
+  
+.consulta button {
+    padding: 15px 30px 15px 30px; 
+}
+
+/* Rodapé */
+.rodape {
+    width: 100%;
+    height: 272px;
+    background: #0072B4;
+    color: #ffffff;
+    padding-top: 35px;
+  }
+  
+  .rodape h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .rodape a {
+    font-weight: 500;
+  }
+  
+  .rodape h6 {
+    line-height: 20px;
+  }
+
+}
+
+
+/* Estilo para Smartphones */
+@media only screen and (max-width: 787px) {
+
+  /* Header */
+  .header-menu ul {
+      text-align: center;
+      padding: 53px 0;
+      margin-left: 0px;
+  }
+
+  .header-menu ul li {
+      display: block;
+      padding-right: 0px;
+      padding-top: 30px;
+  }
+
+ .header-menu ul li a {
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+  }
+
+  .header-menu ul li a:hover {
+    border-bottom: none;
+    color: #252b42;
+  }
+
+  .header-menu ul li .menu-ativo {
+    color: #0072B4;
+  }
+
+  /* Apresentação-1 */
+  .apresentacao-1 {
+    padding: 60px 0 50px 0;
+    text-align: center;
+  }
+
+  .apresentacao-1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+  .apresentacao-1 p {
+    font-weight: 400;
+    padding: 35px 10px;
+    width: 290px;
+  }
+
+  .apresentacao-1 #mobile {
+    display: block;
+  }
+
+  .apresentacao-1 #dispositivo-geral {
+      display: none;
+  }
+
+  .apresentacao-1 button:nth-of-type(1) {
+    margin-bottom: 25px;
+  }
+  
+  /* Serviços */
+
+  .servicos {
+      text-align: left;
+  }
+  .servicos ul li {
+    margin-bottom: 30px;
+    height: 210px;
+  }
+
+  /* Informações */
+
+  .informacoes {
+      padding: 100px 0;
+  }
+
+  .informacoes ul li {
+    background: #ffffff;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto 30px auto;
+  }
+
+  .informacoes .cabeca-info p{
+    padding: 0px 50px 50px 50px;
+  }
+
+  .informacoes .corpo-info li:hover {
+    border-bottom: 10px solid #D0A144; 
+  }
+
+  /* Conselhos */
+
+  .conselhos-cabeca p {
+    line-height: 18px;
+    padding: 20px 30px 0 30px;
+  }
+
+  .conselhos-corpo ul li{
+    width: 230px;
+    height: 317px;
+    margin: 30px auto 0px auto;
+  }
+
+  .conselhos-corpo ul li:nth-child(even){
+    margin-top: 50px;
+  }
+
+  /* quem somos */
+  .quem-somos {
+    background: #ffffff;
+    height: 1110px;
+  }
+
+  .quem-somos .sobre-cabeca p {
+    line-height: 18px;
+    padding: 30px 30px 60px 30px;
+  }
+
+  .video-play button {
+    padding: 22px 23px 23px 27px;
+    transform: translate3d(100px, -135px, 0);
+  }
+
+  /* Empresas */    
+
+	.logos {
+		transform: translateY(-100px);
+	}
+
+	.logos li {
+			padding: 30px 0;
+			display: block;
+	}
+
+  .logos li:nth-child(1) img {
+    margin-left:90px;
+   }
+   
+
+	.logos li:nth-child(6) {
+		padding-right: 0;
+	}
+
+	.logos img {
+		margin: 0 auto;
+	}
+
+	.entrada {
+		width: 300px;
+	}
+
+	.formulario {
+		background: none;
+		margin-top: 0px;
+		padding: 30px 0;
+		height: 212px;
+	}
+
+	.formulario form input {
+		width: 183px;
+	}
+	
+	
+	.formulario h3 {
+		text-align: center;
+		margin: 20px 0 30px 0;
+	}
+
+	.barra-fundo {
+		height: 212px;
+		background: #0072B5;
+		transform: translateY(940px);
+		font-size: 0;
+	}  
+
+
+/* Contato */
+
+.contato div:nth-of-type(2){
+  margin-left: 0px;
+}
+
+.contato p {
+  padding: 10px 40px 20px 40px;
+}  
+
+.contato div:nth-of-type(3){
+  width: 300px;
+  transform: translateY(0px);
+	margin: 30px 0;
+}
+
+/* Consulta */
+
+.consulta {
+  height: 260px;
+}
+
+.consulta button {
+  margin-left: 0px;
+	margin-top: 40px;
+}
+
+/* Rodapé */
+
+.rodape {
+  height: 1130px;
+	padding: 0;
+}
+
+.rodape h5 {
+  margin-top: 40px;
+}
+
+/* Copy */
+
+.copy p {
+	margin-bottom: 20px;
+}
+
+.copy ul {
+  text-align: left;
+  padding-right: 30px;
+}
+}

@@ -1,0 +1,680 @@
+/* Estilos Gerais */
+body {
+  font-size: 14px;
+  font-family: "Martel", "Open Sans";
+  background: #f3f3f3;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  padding: 37px 0;
+}
+
+.header a span {
+  font-family: "Martel";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  color: #252b42;
+}
+
+.header-menu ul {
+  padding: 5px 0;
+  margin-left: 50px;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  padding-right: 21px;
+}
+
+.header-menu ul li a {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #737373;
+}
+
+.header-menu ul li a:hover {
+  border-bottom: 2px solid #784f33;
+}
+
+.header-menu ul li .menu-ativo {
+  color: #000000;
+}
+
+/* Apresentação 1 */
+
+.apresentacao-1 {
+  width: 100%;
+  padding: 80px 0 55px 0;
+  background: url("../img/bg-home.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.apresentacao-1 h1 {
+  text-transform: uppercase;
+  font-family: "Martel";
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.apresentacao-1 p {
+  font-size: 20px;
+  font-family: "Montserrat";
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  padding: 35px 0;
+  width: 376px;
+  color: #737373;
+}
+
+.apresentacao-1 #mobile {
+  display: none;
+}
+
+.apresentacao-1 button {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 10px 36px;
+  border: 1.8px solid #784f33;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.apresentacao-1 button:nth-of-type(1) {
+  background: #784f33;
+}
+
+.apresentacao-1 button:nth-of-type(1):hover {
+  background: none;
+  color: #784f33;
+}
+
+.apresentacao-1 button:nth-of-type(2) {
+  background: none;
+  color: #784f33;
+}
+
+.apresentacao-1 button:nth-of-type(2):hover {
+  background: #784f33;
+  color: #ffffff;
+}
+
+/* Serviços */
+
+.servicos {
+  transform: translate3d(0, 70px, 0);
+}
+
+.servicos ul li h3 {
+  font-family: "Martel";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  margin-top: 10px;
+  color: #252b42;
+}
+
+.servicos ul li {
+  background: #ffffff;
+  padding: 30px;
+  height: 210px;
+}
+
+.servicos ul li:nth-child(3) {
+  background: #295c7a;
+}
+
+.servicos ul li:nth-child(3) h3,
+.servicos ul li:nth-child(3) p {
+  color: #ffffff;
+}
+
+.servicos ul li p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 15px 0;
+  width: 199px;
+  color: #737373;
+}
+
+/* Informações */
+
+.informacoes {
+  font-family: "Montserrat";
+  padding: 170px 0;
+  text-align: center;
+}
+
+.informacoes ul li {
+  background: #ffffff;
+  height: 210px;
+}
+
+.informacoes .cabeca-info h2 {
+  margin-bottom: 20px;
+}
+
+.informacoes h2 {
+  font-size: 40px;
+  font-family:'Martel';
+  font-weight: bold;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.informacoes .cabeca-info p{
+  font-size: 14px;
+  font-family:'Open Sans';
+  line-height: 20px;
+  padding: 0px 275px 50px 275px;
+  color: #737373;
+}
+
+
+.informacoes .corpo-info li h5 {
+  font-family: 'Martel';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #737373;
+  padding-top: 5px;
+}
+
+.informacoes .corpo-info li:hover {
+  border-bottom: 3px solid #D0A144; 
+}
+
+.informacoes .corpo-info li:nth-of-type(1) h5 {
+  margin-top: 10px;
+}
+
+
+.informacoes .corpo-info img {
+  margin: 0 auto;
+  padding: 30px 0 20px 0;
+}
+
+/* Conselhos */
+.conselhos {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.conselhos-cabeca h2 {
+  font-family: 'Martel';
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+
+.conselhos-cabeca p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 0 220px 0 220px;
+
+}
+
+.conselhos-corpo ul li{
+  padding-top: 30px;
+  margin-top: 75px;
+  background: #ffffff;
+}
+
+.conselhos-corpo li h5 {
+  font-family: 'Martel';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  text-align: left;
+  padding-left: 30px;
+  color: #252B42;
+  width: 155px;
+}
+
+.conselhos-corpo li p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  padding: 15px 30px 30px 30px;
+}
+
+.conselhos-corpo li:nth-of-type(3) img {
+  margin-top: 20px;
+}
+
+.conselhos-corpo li:nth-of-type(4) img {
+  margin-top: 20px;
+}
+
+/* Quem somos */
+
+.quem-somos {
+  width: 100%;
+  height: 823px;
+  background: url('../img/background-sobre.jpg') no-repeat center;
+  background-size: cover;
+  padding: 100px 0 90px 0;
+}
+
+.quem-somos .sobre-cabeca h2 {
+  text-align: center;
+  font-family: 'Martel';
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.quem-somos .sobre-cabeca p {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 15px 292.5px 100px 292.5px;
+}
+
+.quem-somos .sobre h3{
+  text-align: left;
+  font-family: 'Martel';
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.quem-somos .sobre p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.quem-somos .sobre img {
+  float:left;
+  padding: 20px 0;
+}
+
+.quem-somos .sobre span:nth-of-type(even) {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  display: block;
+  padding: 7px 0 0 50px;
+}
+
+.quem-somos .sobre span:nth-of-type(odd) {
+  font-family: 'Martel';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #252B42;
+  display: block;
+  padding: 20px 0 0 50px;
+}
+
+.video-play button {
+  padding: 30px 33px;
+  border-style: none;
+  border-radius: 60px;
+  background: #295c7a;
+  transform: translate3d(250px, -245px, 0);
+}
+
+.video-play button:hover {
+  background: #D0A144;
+}
+
+/* Empresas */
+
+.logos {
+  text-align: center;
+}
+
+.logos li {
+  padding-top: 30px;
+  padding-right: 60px;
+  display: inline-block;
+}
+
+.logos li:nth-child(1) img {
+  margin-left: 20px;
+}
+
+.formulario {
+  margin-top: 80px;
+  background: #0072B5;
+  height: 124px;
+  float: left;
+  padding: 30px 53px 30px 50px;
+}
+
+.entrada {
+  width: 450px;
+}
+
+.formulario form {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.formulario form input {
+  padding: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 333px;
+  height: 58px;
+  outline: none;
+  border: none;
+  margin-right: -3px;
+}
+
+
+.formulario h3 {
+  font-family: 'Martel';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #ffffff;
+  margin-right: 70px;
+}
+
+.formulario button {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  background: #D0A144;
+  color: #ffffff;
+  border: none;
+  width: 114px;
+  height: 58px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #295c7a;
+}
+
+.barra-fundo {
+  width: 100%;
+  height: 77px;
+  background: #252B42;
+  transform: translateY(320px);
+  font-size: 0;
+}  
+
+/* Contato */
+
+.contato {
+  text-align: center;
+  padding: 90px 0 80px 0;
+}  
+
+.contato div {
+  padding: 50px 0 50px 0;
+}  
+
+
+.contato div:nth-of-type(2){
+  margin-left: 25px;
+  margin-right: 0px;
+}
+
+.contato div:nth-of-type(3){
+  width: 328px;
+  height: 393px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #252B42;
+  color: #ffffff;
+  transform: translateY(-30px);
+  padding: 80px 0 80px 0;
+}
+
+.contato div:nth-of-type(3) h5, .contato div:nth-of-type(3) h6{
+  color:#ffffff;
+}
+
+.contato div:nth-of-type(4){
+  margin-left: 0px;
+}
+
+.contato img {
+  margin: 0 auto;
+}
+
+.contato h2 {
+  font-family: 'Martel';
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}    
+
+.contato p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #737373;
+  padding: 10px 309.5px 80px 309.5px;
+}    
+
+.ativa-fundo {
+  background: #ffffff;
+}    
+
+
+.contato h6 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}  
+
+.contato h6:nth-of-type(1) {
+  padding-top: 15px;
+}  
+
+.contato h5 {
+  font-family: 'Martel';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  padding: 15px 0 15px 0;
+}  
+
+.contato button {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #D0A144;
+  border: 1px solid #D0A144;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+}  
+
+.contato button:hover {
+  background: #D0A144;
+  color: #ffffff;
+}  
+
+/* Consulta */
+
+.consulta {
+  width: 100%;
+  height: 142px;
+  background: #ffffff;
+  padding-top: 40px;
+}
+
+.consulta h3 {
+  font-family: 'Martel';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #295c7a;
+}
+
+.consulta p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+  padding-top: 10px;
+}
+
+.consulta button {
+  margin-left: 220px;
+  background: #784F33;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.consulta button:hover {
+  background: #0072B5;
+}
+
+
+/* Rodapé */
+
+.rodape {
+  width: 100%;
+  height: 272px;
+  background: #0072B4;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.rodape h5 {
+  font-family: 'Martel';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.rodape a {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  color: #ffffff;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.rodape a:hover {
+  color: #000000;
+}
+
+.rodape a:nth-of-type(1) {
+  padding-top: 30px;
+}
+
+.rodape img {
+  float: left;
+}
+
+.rodape .entre-contato li:nth-child(1) {
+  margin-top: 30px;
+}
+
+.rodape h6 {
+  font-family: 'Martel';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin: 20px 0 0 40px;
+}
+
+/* Copy */
+
+.copy {
+  padding: 20px 0;
+}
+
+.copy p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.copy ul {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.copy li {
+  display: inline-block;
+  padding-right: 20px;
+}
